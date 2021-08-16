@@ -1,0 +1,16 @@
+Pegue a pasta vrproupas (Não altere o nome dessa pasta!) , Apos isso cole essa pasta no diretorio - C:/xampp/htdocs
+
+ISSO NA SUA VPS
+
+
+Apos isso
+
+Va ate o script roupas cidade alta 
+No ui.js do script
+Tem um IP que começa com 149
+Altere ele para o seu IP da VPS
+
+PRA FUNCIONAR TEM QUE ABRIR A PORTA 80 TCP E UDP DO SEU SERVIDO
+
+CREDITOS: Skoll#0001
+acesse: https://discord.gg/xkHEv5F
