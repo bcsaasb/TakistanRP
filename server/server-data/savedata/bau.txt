@@ -1,0 +1,2 @@
+[ID]: 1 / [FUNÇÃO]: Colocar / [ITEM]: maconha / [QTD]: 1
+[ID]: 1 / [FUNÇÃO]: Retirar / [ITEM]: maconha / [QTD]: 1
