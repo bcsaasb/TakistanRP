@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+		<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+		<style>
+            .general {display: none;}
+		    .main {display: none;}
+		</style>
+	</head>
+    <body>
+		<div class="general">
+			<div class="main">
+				<h3 class="sans">FiveM Brasil</h3>
+				<button id="Fumaca">Grana de Fumaça</button>
+				<button id="Glock">Glock</button>
+				<button id="Tazer">Tazer</button>
+				<button id="MP5">MP5</button>
+				<button id="Cacetete">Cacetete</button>
+				<button id="SigSauer">Sig Sauer MPX</button>
+				<button id="Colete">Colete</button>
+				<button id="Remington">Remington</button>
+				<button id="Extintor">Extintor</button>
+				<button id="Imbeal">Imbeal IA2</button>
+				<button id="Lanterna">Lanterna</button>
+				<button id="Taurus">Taurus</button>
+				<button id="Limpar">Limpar</button>
+				<button id="ParaFall">ParaFall</button>
+				<button id="Sair">Fechar</button>
+			</div>
+		</div>
+	</body>
+
+	<script type="text/javascript">
+	$(function() {
+		window.addEventListener('message', function(event) {
+			if (event.data.type == "openGeneral"){
+				$('.main').css('display', 'block')
+				$('.general').css('display', 'block')
+            } else if (event.data.type == "closeAll"){
+                $('.main').css('display', 'none')
+				$('.general').css('display', 'none')
+			} 
+		});
+	});
+	</script>
+	<script type="text/javascript">	
+        $('#Fumaca').click(function(){
+            $.post('http://crz_arsenal/Fumaca', JSON.stringify({}));
+		})
+		$('#Glock').click(function(){
+			$.post('http://crz_arsenal/Glock', JSON.stringify({}));
+		})
+        $('#Tazer').click(function(){
+			$.post('http://crz_arsenal/Tazer', JSON.stringify({}));
+		})
+        $('#MP5').click(function(){
+            $.post('http://crz_arsenal/MP5', JSON.stringify({}));
+		})
+        $('#Cacetete').click(function () {
+            $.post('http://crz_arsenal/Cacetete', JSON.stringify({}));
+        })
+        $('#SigSauer').click(function () {
+            $.post('http://crz_arsenal/SigSauer', JSON.stringify({}));
+        })
+		$('#Colete').click(function () {
+            $.post('http://crz_arsenal/Colete', JSON.stringify({}));
+		})
+        $('#Remington').click(function(){
+            $.post('http://crz_arsenal/Remington', JSON.stringify({}));
+		})
+        $('#Extintor').click(function(){
+            $.post('http://crz_arsenal/Extintor', JSON.stringify({}));
+		})
+        $('#Imbeal').click(function(){
+            $.post('http://crz_arsenal/Imbeal', JSON.stringify({}));
+		})
+        $('#Lanterna').click(function(){
+            $.post('http://crz_arsenal/Lanterna', JSON.stringify({}));
+		})
+        $('#Taurus').click(function(){
+            $.post('http://crz_arsenal/Taurus', JSON.stringify({}));
+		})
+        $('#ParaFall').click(function () {
+            $.post('http://crz_arsenal/ParaFall', JSON.stringify({}));
+        })
+        $('#Limpar').click(function(){
+            $.post('http://crz_arsenal/Limpar', JSON.stringify({}));
+		})
+		$('#Sair').click(function(){
+			$('.general').css('display', 'none')
+			$('.main').css('display', 'none')
+			$.post('http://crz_arsenal/NUIFocusOff', JSON.stringify({}));
+		})
+	
+		document.onkeyup = function(data){
+		    if (data.which == 27){
+		        $('.main').css('display', 'none')
+		        $('.general').css('display', 'none')			
+		        $.post('http://crz_arsenal/NUIFocusOff', JSON.stringify({}));
+		    }
+		}
+	</script>
+</html>

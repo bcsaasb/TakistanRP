@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css?family=Syncopate|Unica+One');
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,900,900italic,300italic,300,100italic,100);
+
+body, html {
+	overflow-y: hidden;
+}
+/* main.css */
+
+button{ 
+    color: white;
+    background-color:  transparent;
+    font-family: 'Unica One', cursive;
+	font-size: 18px;
+    margin: 2px auto;
+	padding: 1	px 2px;
+    cursor: pointer;
+	border: none;
+    border-radius: 1px;
+    text-transform: uppercase;
+    width: 36%;
+    height: 6%;
+    display: inline-block;
+    position: relative;
+    left: 10%;
+    bottom: -222px;
+}
+
+#Fumaca {
+	color: white;
+	background-color: black;
+	font-family: 'Unica One', cursive;
+	font-size: 18px;
+	cursor: pointer;
+	border-radius: 5px;
+	text-transform: uppercase;
+	width: 36%;
+	height: 6%;
+	left: 15%;
+	opacity: 0.8;
+	border: 2px solid black;
+	bottom: -125px;
+}
+#Glock{
+	color: white;
+	background-color: black;
+	font-family: 'Unica One', cursive;
+	font-size: 18px;
+	cursor: pointer;
+	border-radius: 5px;
+	text-transform: uppercase;
+	width: 36%;
+	height: 6%;
+	left: 15%;
+	opacity: 0.8;
+	border: 2px solid black;
+	bottom: -125px;
+}
+#Tazer{
+	color: white;
+	background-color: black;
+	font-family: 'Unica One', cursive;
+	font-size: 18px;
+	cursor: pointer;
+	border-radius: 5px;
+	text-transform: uppercase;
+	width: 36%;
+	height: 6%;
+	left: 5%;
+	opacity: 0.8;
+	border: 2px solid black;
+	bottom: -130px;
+}
+#MP5 {
+	color: white;
+	background-color: black;
+	font-family: 'Unica One', cursive;
+	font-size: 18px;
+	cursor: pointer;
+	border-radius: 5px;
+	text-transform: uppercase;
+	width: 36%;
+	height: 6%;
+	left: 25%;
+	opacity: 0.8;
+	border: 2px solid black;
+	bottom: -130px;
+}
+#Cacetete {
+	color: white;
+	background-color: black;
+	font-family: 'Unica One', cursive;
+	font-size: 18px;
+	cursor: pointer;
+	border-radius: 5px;
+	text-transform: uppercase;
+	width: 36%;
+	height: 6%;
+	left: 0%;
+	opacity: 0.8;
+	border: 2px solid black;
+	bottom: -135px;
+}
+#SigSauer{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 30%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -135px;
+}
+#Colete{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: -5%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -140px;
+}
+#Remington{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 35%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -140px;
+}
+#Extintor{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 0%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -145px;
+}
+#Imbeal{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 30%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -145px;
+}
+#Lanterna{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 5%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -150px;
+}
+#Taurus {
+	color: white;
+	background-color: black;
+	font-family: 'Unica One', cursive;
+	font-size: 18px;
+	cursor: pointer;
+	border-radius: 5px;
+	text-transform: uppercase;
+	width: 36%;
+	height: 6%;
+	left: 25%;
+	opacity: 0.8;
+	border: 2px solid black;
+	bottom: -150px;
+}
+#Limpar {
+	color: white;
+	background-color: black;
+	font-family: 'Unica One', cursive;
+	font-size: 18px;
+	cursor: pointer;
+	border-radius: 5px;
+	text-transform: uppercase;
+	width: 36%;
+	height: 6%;
+	left: 15%;
+	opacity: 0.8;
+	border: 2px solid black;
+	bottom: -155px;
+}
+
+#ParaFall {
+	color: white;
+	background-color: black;
+	font-family: 'Unica One', cursive;
+	font-size: 18px;
+	cursor: pointer;
+	border-radius: 5px;
+	text-transform: uppercase;
+	width: 36%;
+	height: 6%;
+	left: 15%;
+	opacity: 0.8;
+	border: 2px solid black;
+	bottom: -155px;
+}
+
+#Sair{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 19%;
+   height: 6%;
+   left: -31.7%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -100px;
+}
+
+.general{
+    background-image: url('img/phone.png');
+	background-repeat: no-repeat;
+	font-family: 'Unica One', cursive;
+	background-size: 500px 500px;
+	width: 500px; 
+	height: 500px; 
+	position: absolute;
+
+	top: 25%;
+	left: 30%;
+
+}
+h1{
+	font-family: 'Unica One', cursive;
+	color: black;
+	position: relative;
+	left: 48%;
+	top: 39%;
+}
+h3{
+	position: absolute;
+	left: 40.2%;
+	bottom: 55%;
+	 background-color:  white;
+	  font-size: 12px;
+	 opacity: 0.1;
+	 border-radius: 5px;
+}
+.b{
+	
+	font-family: 'Unica One', cursive;
+	color: black;
+	position: relative;
+	left: 30%;
+	top: 30%;
+}
+
+input[type=text] {
+	position: relative;
+    top: 50px;
+    left: 180px;
+    
+	font-family: 'Unica One';
+    width: 40%;
+    height: 8%;
+    padding: 5px 5px;
+    margin: 40px 0;
+    box-sizing: border-box;
+ 
+	
+}
+
+button:hover{
+	background-color: black;
+	opacity: 1.0;
+}
+
+#Fumaca:hover{
+	opacity:1.0
+}
+#Glock:hover{
+	opacity:1.0
+}
+#Tazer:hover{
+	opacity:1.0
+}
+#MP5:hover{
+	opacity:1.0
+}
+#Cacetete:hover{
+	opacity:1.0
+}
+#SigSauer:hover{
+	opacity:1.0
+}
+#Cacetete:hover{
+	opacity:1.0
+}
+#Remington:hover{
+	opacity:1.0
+}
+#Extintor:hover{
+	opacity:1.0
+}
+#Imbeal:hover{
+	opacity:1.0
+}
+#Lanterna:hover{
+	opacity:1.0
+}
+#Faca:hover{
+	opacity:1.0
+}
+#ParaFall:hover{
+	opacity:1.0
+}
+#Sair:hover{
+	opacity:1.0
+}
